@@ -1,66 +1,123 @@
-# SedekWebProjesi_Nedir
-SEDEK Web Projesi, kurumların akreditasyon başvurularını yönetmek, değerlendiricilerin başvurularını takip etmek ve süreçleri dijital ortamda düzenlemek amacıyla geliştirilmiş bir akreditasyon yönetim sistemidir.
+SEDEK Web Projesi
 
-🚀 Özellikler
 
-Çok rollü kullanıcı yapısı
+SEDEK Web Projesi, kurumların akreditasyon başvurularını yönetmek, değerlendiricilerin başvurularını takip etmek ve süreçleri dijital ortamda düzenlemek amacıyla geliştirilmiş modern bir akreditasyon yönetim sistemidir.
 
+🌐 Canlı Demo
+Proje şu anda canlı olarak test edilebilir durumdadır:
+🔗 https://sitedeneme.com.tr
+
+<img width="301" height="167" alt="image" src="https://github.com/user-attachments/assets/c3efb05c-25eb-4570-b32b-541ac6df01ed" />
+
+
+🚀 Öne Çıkan Özellikler
+Çok Rollü Kullanıcı Yapısı
 Süper Admin
+https://sitedeneme.com.tr/images/super-admin.png
 
-Admin ekleme ve silme
+✅ Admin ekleme ve silme yetkisi
 
-Değerlendirici ve kurum başvurularını görüntüleme
+👥 Değerlendirici ve kurum başvurularını görüntüleme
 
-Değerlendiricileri kabul veya reddetme
-
-Kurumların başvurularını yönetme
-
-Kabul edilmiş değerlendiriciler arasından Başkan Değerlendirici ve Öğrenci Değerlendirici atama
-
-Kurumun değerlendirme süreci sonunda 4 veya 12 yıllık akreditasyon programına dahil edilmesini veya reddedilmesini sağlama
+📋 Başvuruları kabul/reddetme yetkisi
 
 Admin
+https://sitedeneme.com.tr/images/admin-panel.png
 
-Değerlendirici başvurularını görüntüleme
+👀 Değerlendirici başvurularını görüntüleme
 
-Başvuruları kabul veya reddetme
+📊 Başvuruları değerlendirme ve yönetme
 
-Panel üzerinden dinamik sayfa içeriklerini ve menüleri yönetme
+🎛️ Dinamik sayfa içerikleri ve menü yönetimi
 
 Değerlendirici
+https://sitedeneme.com.tr/images/evaluator-interface.png
 
-Sisteme başvuru yapma
+📝 Sisteme başvuru yapma
 
-Başvurusu kabul edildiğinde kendisine atanan kurumları görüntüleme
+🏢 Atanan kurumları görüntüleme
 
-Kurum değerlendirme görevlerini tamamlama
+✅ Kurum değerlendirme görevlerini tamamlama
 
 Kurum
+https://sitedeneme.com.tr/images/institution-interface.png
 
-Akreditasyon başvurusu yapma
+🏛️ Akreditasyon başvurusu yapma
 
-Başvuru süreçlerini kendi panelinden takip etme
+📈 Başvuru sürecini takip etme
 
 📌 Süreç Akışı
+https://sitedeneme.com.tr/images/process-flow.png
 
-Kurum, akreditasyon için sisteme başvuru yapar.
+Kurum, sisteme akreditasyon başvurusu yapar
 
-Değerlendirici, sisteme kayıt olur ve başvurusu admin tarafından değerlendirilir.
+Değerlendirici, kayıt olur ve admin tarafından değerlendirilir
 
-Süper Admin, kabul edilen değerlendiriciler arasından kurum için ekip ataması yapar.
+Süper Admin, kurum için değerlendirme ekibi atar
 
-Değerlendirici, kurumun değerlendirme sürecini tamamlar.
+Değerlendirici, kurum değerlendirme sürecini tamamlar
 
-Süper Admin, kurumun akreditasyon sonucunu belirler (4 yıl, 12 yıl veya reddedilme).
+Süper Admin, nihai akreditasyon kararını verir
 
-🛠️ Teknolojiler
+🛠️ Teknoloji Yığını
+https://sitedeneme.com.tr/images/technology-stack.png
 
-ASP.NET Core / MVC
+Backend Framework: ASP.NET Core MVC
 
-Entity Framework
+ORM: Entity Framework Core
 
-MS SQL Server
+Database: MS SQL Server
 
-Bootstrap 5
+Frontend: Bootstrap 5, JavaScript, jQuery
 
-Modern ve dinamik admin paneli
+Authentication: ASP.NET Core Identity
+
+Hosting: IIS Windows Server
+
+📦 Kurulum
+https://sitedeneme.com.tr/images/installation-guide.png
+
+Projeyi yerel ortamınızda çalıştırmak için:
+
+Depoyu klonlayın:
+
+bash
+git clone https://github.com/[kullanici-adi]/SedekWebProjesi.git
+Gerekli NuGet paketlerini yükleyin:
+
+bash
+dotnet restore
+Veritabanını oluşturun ve migration'ları uygulayın:
+
+bash
+dotnet ef database update
+Projeyi çalıştırın:
+
+bash
+dotnet run
+🌐 Canlı Demo ve Test
+https://sitedeneme.com.tr/images/test-accounts.png
+
+Projemizi canlı olarak inceleyebilirsiniz:
+🔗 https://sitedeneme.com.tr
+
+Test hesapları:
+
+Süper Admin: admin@sedek.com / password123
+
+Değerlendirici: evaluator@sedek.com / password123
+
+Kurum: institution@sedek.com / password123
+
+📞 İletişim
+https://sitedeneme.com.tr/images/contact-info.png
+
+Proje ile ilgili sorularınız için:
+
+📧 Email: info@sitedeneme.com.tr
+
+🌐 Website: https://sitedeneme.com.tr
+
+📄 Lisans
+Bu proje özel lisans altında korunmaktadır.
+
