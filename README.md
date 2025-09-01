@@ -1,0 +1,1 @@
+# SedekWebProjesi_Nedir
